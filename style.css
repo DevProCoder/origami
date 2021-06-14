@@ -1,41 +1,19 @@
-.head{
-      
-    background-color:white;
-    border:solid;
-     }
-  
-     .note{
-       background-color: red;
-       border: dotted;
-     }
-  
-  .grid {
-    background: darkred;
-    background-color: #F0F8FF;
-    display: flex;
-    justify-content: last baseline;
-    flex-direction: row;
-    text-align: left;
-    flex-wrap: wrap;
-  }
-  
-  .camel {
 
-  }
-  
-  
-  .chameleon {
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 500px;
-    padding: 50px;
-    background-color:#E8E5E4;
-  }
-  
-  .cicada {
-    border: 1px solid black;
+h1{
+    font:italic;
+    size: 100px;
+    text-align: center;
+    color: chocolate;
+    
+}
+p{
+font:oblique;
+text-align: center;
+
+}
+
+.pandi {
+    border: 1px solid #101010;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 200px;
@@ -43,32 +21,9 @@
     padding: 50px;
     background-color:#E8E5E4;
   }
-  
-  
-  .pigeon {
-   
-  }
-  
-  .teddy {
 
-  }
-
-  .youtube{
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 650px;
-    padding: 50px;
-    background-color:#E8E5E4;
-  }
-
-  .instagram{
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 650px;
-    padding: 50px;
-    background-color:#E8E5E4;
-  }
+.parents{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
