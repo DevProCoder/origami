@@ -27,3 +27,19 @@ text-align: center;
     justify-content: space-between;
     flex-wrap:wrap ;
 }
+.parents p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-100%);
+    opacity: 0;
+    
+    }
+    .parents:hover p{
+    opacity: 1;
+    
+    }
+    .pandi:hover img{
+        opacity: 0.1;
+    }
+    
